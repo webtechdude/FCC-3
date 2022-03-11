@@ -31,6 +31,7 @@ header {
     top: 0;
     justify-content: space-between;
     align-items: center;
+    z-index: 5;
 }
 
 header #logo {
@@ -41,7 +42,7 @@ header #logo {
 
 header #logo p {
     font-size: 30px;
-    font-family: Righteous;
+    font-family: 'Righteous';
     text-shadow: 0px 0px 5px 6px white;
 }
 
@@ -129,6 +130,7 @@ header nav ul .nav-link a:hover {
     font-size: 50px;
     font-family: 'Lobster';
     text-align: center;
+    text-shadow: 0px 0px 10px #000000;
 }
 
 #price-boxes {
@@ -145,7 +147,7 @@ header nav ul .nav-link a:hover {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    border: 2px solid whitesmoke;
+    border: 2px solid rgba(245, 245, 245, 0.534);
     box-shadow: 0 0 10px 10px #000;
     min-height: auto;
     width: 200px;
